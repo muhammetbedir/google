@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* countainer */
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* searchbox */
+.box2 {
+  background-color: #eeee;
+  width: 1326.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box2 p {
+  font-size: 15px;
+  padding: 2px 0;
+}
+.box2 input {
+  width: 300px;
+  height: 22px;
+}
+button {
+  padding: 2px;
+}
+input:focus {
+  border: 2px solid black;
+  outline: 0;
+}
+
+/* links */
+.box3 {
+  display: flex;
+  justify-content: space-around;
+  width: 1326.8px;
+  margin-top: 3px;
+}
+.box3 .sp-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #7ee5da;
+  width: 36%;
+}
+.box3 .help {
+  background-color: #70ccc2;
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+  font-size: 14px;
+}
+.box3 .get {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #62b3aa;
+  width: 44.5%;
+}
+.get p {
+  font-size: 13px;
+}
+.archive {
+  display: flex;
+}
+.archive a {
+  margin-left: 10px;
+}
+
+/* info copyright */
+.info {
+  font-size: 13px;
+  margin: 20px;
+}
